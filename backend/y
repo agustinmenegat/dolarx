@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "dolarx-stack1"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-128uhmzmt8esv"
+s3_prefix = "dolarx-stack1"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = []
